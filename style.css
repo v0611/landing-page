@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: #F9FAF8, sans-serif;
+ 
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 100px 20px;
+}
+
+.header-top,
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+}
+
+.left>h1 {
+    width: 200px;
+
+}
+
+.left>div {
+    width: 330px;
+    padding-bottom: 10px;
+  
+}
+
+.left>button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
+.gallery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.container-master {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 60%;
+    margin:auto;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 20px;
+    font-style: italic;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+p {
+    align-self: center;
+    max-width: 60%;
+    align-self: center;
+    max-width: 60%;
+}
+
+.quote>div {
+font-style: normal;
+align-self: end;
+padding-right: 280px;
+}
+
+.action {
+    color: #f9faf8;
+    border-radius: 15px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 32px;
+    max-width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.container>img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+
+}
+
+.action>button {
+    border-style: solid;
+    color: #F9FAF8;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border-color: #F9FAF8;
+    background-color: #3882f6;
+   
+}
